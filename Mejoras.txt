@@ -1,0 +1,11 @@
+//CORREGIR EVITAR DIBUJAR TODO EL MAPA SIEMPRE
+//DIBUJA EL FONDO DEL MAPA
+context.clearRect(0, 0, canvas.width, canvas.height);
+//FONDO DEL MAPA
+
+//ANIMACIONES
+
+//NUEVOS MAPAS
+
+//JSON
+pausar

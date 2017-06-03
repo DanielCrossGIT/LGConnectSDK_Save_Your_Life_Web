@@ -1,0 +1,45 @@
+---------------------------------------
+SECCION - FANSTASMA
+---------------------------------------
+function fantasma: Fantasmas que atacan a pacman, se tienen las imagenes de los ojos que siguen a pacman
+function verificarColision: Verifica que elminó a pacman o fue eliminado
+function crearSprites: Imagenes de los distintos tipos de enemigos
+function dibujar: Verifica si se dibuja el cuerpo, para cuando se elimina al enemigo y vuelve a la base
+function tiempoEstado: Habilita el sonido cuando pacman puede eliminar enemigos
+function movimientoInicial: Define cuando el fantasma inicia a buscar a pacman por el tablero
+function mover: Revive, muere, verica colision, algoritmo de donde moverse
+function dibujarOjos: Define donde mira el fanstama, es decir donde esta pacman (arriba,debajo,izquierda o derecha)
+this.cantidadSprites
+---------------------------------------
+SECCION - NIVEL
+---------------------------------------
+function stage: Sonido del fanstasma, imagenes de los bloques y botones, matriz del mapa
+function cambiarSonido: Sonidos
+function colisionPacman: Ubicacion de pacman
+function comer: Sonido de comer, aumenta el puntaje, cambia el sonido, cambia el estado del enemigo
+function dibujar: Dibuja el mapay verfiica si el juego a finalizado
+
+---------------------------------------
+SECCION - PERSONAJE
+---------------------------------------
+function pacman:  Sonido de comer item, fanstama, muerte de personaje. Imagenes del personaje y su muerte (sprite final de muerte donde explota)
+function suma: ???
+function mover: Movimiento en las diferentes orientaciones
+function getSpriteActual: obtiene el sprite actual
+
+---------------------------------------
+SECCION - MENU
+---------------------------------------
+function menu: Puntaje, vidas, validar presionar teclas
+function repaint: ???
+function continuarJuego: ???
+function tecladoPresionado: Direccion del personaje
+
+
+
+//VALIDAR CON DAVID
+function repaint()
+//FANTASMA BUSCA A PACMAN, ESCAPA DE EL Y VAGA POR EL MAPA LUEGO DE MATARLO
+verificarColision()
+
+¿Cuando muere un jugador el otro tambien muere o sigue jugando desde donde esta?

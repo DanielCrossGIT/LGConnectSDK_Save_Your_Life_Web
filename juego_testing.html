@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ANONIMO V</title>
+        <script>
+        </script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--LOGICA DEL JUEGO-->
+        <script src="js/logica/logica_pacman.js" type="text/javascript"></script>
+        <!--NIVELES-->
+        <script src="js/general/niveles.js" type="text/javascript"></script>
+        <!--CSS-->
+        <link rel="stylesheet" type="text/css" href="css/Estilo.css">
+        <!--JQUERY-->
+        <script src="js/general/jquery.min.js"></script>
+    </head>
+    <body>
+    <div id="popups" class="pop-up-background">
+    </div>
+    <div class="background-juego">
+        <!--SECCION JUGADORES-->
+        <div id="pnderecho" class="panel-derecho">
+            <div id="seccionJugadores" class="jugadores">
+            </div>
+        </div>
+        <!--TABLERO-->
+        <div id="pnizquierdo" class="panel-izquierdo">
+            <!--PONER CANVAS-->
+            <!-- IDEA DE MEJORA
+            <canvas id="tablero" style="background-image: url('assets/images/Fondo/wallpaper.png');z-index: 0; position:absolute"></canvas>
+            <canvas id="lienzo" width="800" height="520" style="z-index: 1; position:absolute">El navegador no soporta</canvas>
+            -->
+            <canvas id="lienzo" width="1152" height="896" style="z-index: -1; position: absolute;">El navegador no soporta</canvas>
+            <!--agregar fondo-->
+            <!--style="background-image: url('assets/images/juego/fondo_tablero.png'); position: absolute;"-->
+        </div>
+    </div>
+    </body>
+</html>
